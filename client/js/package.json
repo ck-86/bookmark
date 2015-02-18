@@ -1,0 +1,25 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "dependencies": {
+    "built.io-browserify": "file:built.io-browserify-2.0.34.tgz",
+    "react": "^0.12.2",
+    "react-router": "^0.12.0"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "reactify": "^1.0.0"
+  }
+}
